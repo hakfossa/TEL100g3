@@ -1,2 +1,7 @@
 TEL100 Group 3 directiory
-Here in the main branch you can find the actual code used in the final verdion. To view earlier code see the poorly named "final_version"-branch.
+Here in the main branch you can find the actual code used in the final version. 
+
+Code for Arduino UNO can be found in "save_the_PLANeT_final" and the code for the
+Arduino WiFi MKR 1010 can be found in the "MKR_files_final" folder.
+
+To view earlier code see the poorly named "final_version"-branch.
