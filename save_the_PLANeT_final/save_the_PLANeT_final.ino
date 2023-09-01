@@ -76,8 +76,8 @@ void loop() {
     waterPlant();
   }
 
-  if (hundredSecondsCompleted > 4) {
-    // if ~12 hours has passed
+  if (hundredSecondsCompleted > 431) { // 431*100 seconds approximately 12 hours
+    // if ~12 hours has passed 
     Serial.println("12 hour check");
     if (soilMoisture > 500) {
       waterPlant();
@@ -89,6 +89,6 @@ void loop() {
   hundredSecondsCompleted += 1;
 
   // wait 100 seconds between each check of serial and sensors
-  delay(10000); 
+  delay(100000); 
 
 }
